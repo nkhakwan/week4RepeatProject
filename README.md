@@ -14,7 +14,7 @@ _This website takes pizza orders based on size and toppings and lets the custome
 * Navigate to index.html file.
 * Right click and open in the browser of your choice.
 
-* Alternatively, open the webpage at [click here](https://nkhakwan.github.io/pizzaPlace)
+* Alternatively, open the webpage at [click here](https://nkhakwan.github.io/week4Project)
 
 ## Known Bugs
 
@@ -22,7 +22,7 @@ There are no known bugs at the time of this update.
 
 ## Support and contact details
 
-_Have a bug or an issue with this application? [Open a new issue](https://github.com/nkhakwan/pizzaPlace/issues) here on GitHub._
+_Have a bug or an issue with this application? call 999-503-9999_
 
 ## Technologies Used
 
@@ -32,6 +32,9 @@ Bootstrap
 Git and GitHub
 JavaScript
 jQuery
+constructors
+prototype
+Creating and Saving Objects
 
 ### Specs Input
 | Spec | Input | result |
@@ -43,6 +46,9 @@ jQuery
 |  
 ### Specs Output
 | **Displays Calculated Cost** | User Input: "Click-Submit" | Output: "calculated cost is displayed" |
+
+### Extra Work
+| **Displays Previous all orders of day** | User Input: "Click-Submit" | Output: "none" Comments: Time ran out in saving all past order in the object and this extra section could not be completed|
 
 
 ### License
