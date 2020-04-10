@@ -42,13 +42,7 @@ jQuery
 | 
 |  
 ### Specs Output
-| **Displays Calculated Cost** | User Input: "Click-Roll" | Output: "1, Player 2" |
-
-
-| **Option to hold** | User Input: "Click-Hold" | Output: "player2Playing", turnTotal: 0 |
-| **Count rounds after both players have had a turn** | User Input: "Player 2: Click-Hold" | Output: "Round 2" |
-| **After round 3 display final score** | User Input: "Round 3: Player 2: Click-Hold" | Output: "Final Score Player 1: 12, Player 2: 21" |
-| **Display option to play again** | User Input: "Click-Play Again" | Output: "Initial title screen" |
+| **Displays Calculated Cost** | User Input: "Click-Submit" | Output: "calculated cost is displayed" |
 
 
 ### License

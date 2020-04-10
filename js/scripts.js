@@ -31,5 +31,6 @@ $(document).ready(function() {
     var vegType   = parseInt($("#veg").val());
     alert(pizzaSize + ","+ meatType +"," + vegType);
     pizzaOrder.addOrder(pizzaSize,meatType,vegType,calculateOrder(pizzaSize,meatType,vegType));
+    $("#cost").html(calculateOrder(pizzaSize,meatType,vegType));
   });
 });
