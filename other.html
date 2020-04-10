@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="otherjs.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <title>Movie Tickets!</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="jumbotron">
+          <h1>Movie Tickets</h1>
+          <form>
+            <label for="age">Select Age:</label>
+            <select id="age" name="age">
+              <option value="1">Child</option>
+              <option value="2">Senior</option>
+              <option value="3">Adult</option>
+            </select>
+            <br>
+            <label for="showtime">Select Showtime:</label>
+            <select id="showtime" name="showtime">
+              <option value="1">Matinees</option>
+              <option value="2">General admission</option>
+              <option value="3">Late night showing</option>
+            </select>
+            <br>
+            <label for="movie">Select a Movie:</label>
+            <select id="movie" name="movie">
+              <option value="10">Harry Potter and the goblet of fire</option>
+              <option value="13">Howl's Moving Castle</option>
+              <option value="15">Paul Blart: Mall Cop</option>
+            </select>
+            <br>
+            <button type="submit">Submit</button>  
+          </form>
+        </div>
+      </div>
+    <div class="col-md-6">
+      <div class="jumbotron">
+        <h4>Ticket cost:</h4>
+
+        <p id="hidden"><span id="cost"></span></p>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+</html>
