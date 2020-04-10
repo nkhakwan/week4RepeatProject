@@ -73,7 +73,7 @@ $(document).ready(function() {
     var meatType  = parseInt($("#meat").val());
     var vegType   = parseInt($("#veg").val());
     alert(pizzaSize + ","+ meatType +"," + vegType);
-    pizzaOrder.addOrder(pizzaSize,meatType,vegType,calculateOrder(pizzaSize,meatType,vegType));
+    pizzaOrder.addOrder(meatType,vegType,pizzaSize,calculateOrder(pizzaSize,meatType,vegType));
     $("#cost").html(calculateOrder(pizzaSize,meatType,vegType));
   });
 });
