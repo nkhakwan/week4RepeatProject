@@ -33,14 +33,18 @@ Git and GitHub
 JavaScript
 jQuery
 
-### Specs
-| Spec | Input | Output |
-| :------------- | :------------- | :------------- |
-| **Initiate game** | User Input:"Click-Play" | Output: "Navigate from home screen to game page" |
-| **Display initial totals** | User Input: "Click-Play" | Output: "Round 1, Player1 Total: 0, Player2 Total: 0, player1Playing : text, turnTotal"|
-| **Click to roll die** | User Input: "Click-Roll" | Output: "5" |
-| **Display player total** | User Input: "Click-Roll" | Output: "Roll: 5, Total: 10" |
-| **Stops turn if roll 1** | User Input: "Click-Roll" | Output: "1, Player 2" |
+### Specs Input
+| Spec | Input | result |
+| :-------------  | :-----------------------------------------------------| :----------------------------------------|
+| **Pizza Size**  | User Input:"choice of small medium large or family size" | Output: "displays the size selected" |
+| **topping One** | User Input: "choice of chicken, mutton, beef or none" | Output: "displays the topping selected"|
+| **topping two** | User Input: "choice of 'olives/artechoke', 'mushrooms/gardenSalad' or none | Output: "displays the selection" |
+| 
+|  
+### Specs Output
+| **Displays Calculated Cost** | User Input: "Click-Roll" | Output: "1, Player 2" |
+
+
 | **Option to hold** | User Input: "Click-Hold" | Output: "player2Playing", turnTotal: 0 |
 | **Count rounds after both players have had a turn** | User Input: "Player 2: Click-Hold" | Output: "Round 2" |
 | **After round 3 display final score** | User Input: "Round 3: Player 2: Click-Hold" | Output: "Final Score Player 1: 12, Player 2: 21" |
