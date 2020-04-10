@@ -14,7 +14,7 @@ PizzaOrders.prototype.addOrder = function(toppingOne, toppingTwo, size, orderPri
   this.toppingTwoPrice[this.id] = toppingTwo;
   this.sizePrice[this.id] = size;
   this.orderPrice[this.id] = orderPrice;
-  
+}
 var calculateOrder = function(size, toppingOne, toppingTwo){
   var price = size + toppingOne +toppingTwo;
   return price;
@@ -30,8 +30,6 @@ $(document).ready(function() {
     var meatType  = parseInt($("#meat").val());
     var vegType   = parseInt($("#veg").val());
     alert(pizzaSize + ","+ meatType +"," + vegType);
-    var orderPrice = calculateOrder(pizzaSize,meatType,vegType);
-    pizzaOrder.addOrder(pizzaSize,meatType,vegType,orderPrice);
-    alert(orderPrice);
+    pizzaOrder.addOrder(pizzaSize,meatType,vegType,calculateOrder(pizzaSize,meatType,vegType));
   });
 });
