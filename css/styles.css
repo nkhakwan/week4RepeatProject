@@ -33,34 +33,9 @@ button:hover {
   font-weight: bolder;
 }
 
-.gameover {
-  display: none;
-  margin: 5%;
-}
 
-img {
-  width: 70%;
-  margin: 5%;
-}
 
-@media screen and (min-width: 768px) {
-  img {
-    width: 40%;
-  }
-}
 
-.dice-center {
-  display: block;
-  width: 30%;
-  margin-right: auto;
-  margin-left: auto;
-}
 
-.dice-hide{
-  display: none;
-}
 
-#pig {
-  width: 65%;
-  margin: 5%;
-}
+
