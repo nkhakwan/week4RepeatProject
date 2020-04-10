@@ -18,7 +18,7 @@ _This website takes pizza orders based on size and toppings and lets the custome
 
 ## Known Bugs
 
-There are no known bugs at the time of this update.
+Extra work was incomplete.
 
 ## Support and contact details
 
@@ -42,13 +42,7 @@ Creating and Saving Objects
 | **Pizza Size**  | User Input:"choice of small medium large or family size" | Output: "displays the size selected" |
 | **topping One** | User Input: "choice of chicken, mutton, beef or none" | Output: "displays the topping selected"|
 | **topping two** | User Input: "choice of 'olives/artechoke', 'mushrooms/gardenSalad' or none | Output: "displays the selection" |
-| 
-|  
-### Specs Output
 | **Displays Calculated Cost** | User Input: "Click-Submit" | Output: "calculated cost is displayed" |
-
-### Extra Work
-| **Displays Previous all orders of day** | User Input: "Click-Submit" | Output: "none" Comments: Time ran out in saving all past order in the object and this extra section could not be completed|
 
 
 ### License
