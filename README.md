@@ -1,12 +1,12 @@
-# _Pig Dice_
+# _Ben and Travis Pizza Parlor_
 
-#### _Epicodus Project, Interactive Pig Dice Game April 8, 2020_
+#### _Epicodus Week 4 Project_
 
-#### By _**Jessica Hvozdovich and KhaanSahab**_
+#### By _**KhaanSahab**_
 
 ## Description
 
-_This webpage allows a user to roll a die, amass points until they decide to "hold" or roll a one, causing them to forfeit all points accumulated, and then allow another player to do the same. Players accumulate points in between rounds, the highest score at the end of three rounds is the victor._
+_This website takes pizza orders based on size and toppings and lets the customer know calculated price of his purchase_
 
 ## Setup/Installation Requirements
 
@@ -14,7 +14,7 @@ _This webpage allows a user to roll a die, amass points until they decide to "ho
 * Navigate to index.html file.
 * Right click and open in the browser of your choice.
 
-* Alternatively, open the webpage at https://jhvozdovich.github.io/pig-dice
+* Alternatively, open the webpage at [click here](https://nkhakwan.github.io/pizzaPlace)
 
 ## Known Bugs
 
@@ -22,7 +22,7 @@ There are no known bugs at the time of this update.
 
 ## Support and contact details
 
-_Have a bug or an issue with this application? [Open a new issue](https://github.com/jhvozdovich/pig-dice/issues) here on GitHub._
+_Have a bug or an issue with this application? [Open a new issue](https://github.com/nkhakwan/pizzaPlace/issues) here on GitHub._
 
 ## Technologies Used
 
@@ -49,6 +49,6 @@ jQuery
 
 ### License
 
-This software is licensed under the MIT license.
+This software is licensed under the Epicodus inc license.
 
-Copyright (c) 2020 **_Jessica Hvozdovich and Khan Sahab_**
+Copyright (c) 2020 **_Khan Sahab_**
