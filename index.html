@@ -1,38 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<!-- <html lang="en"> -->
+<html>
 <head>
   <script src="js/jquery-3.4.1.js"></script>
-  <script src="otherjs.js"></script>
+  <script src="js/scripts.js"></script>
   <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
   <link rel="stylesheet" href="css/styles.css" type="text/css">
-  <title>Movie Tickets!</title>
+  <title>PDX PIZZA PARLOR</title>
 </head>
 <body>
   <div class="container">
     <div class="row">
       <div class="col-md-6">
         <div class="jumbotron">
-          <h1>Movie Tickets</h1>
+          <h1>Order Your Pizza</h1>
           <form>
-            <label for="age">Select Age:</label>
-            <select id="age" name="age">
-              <option value="1">Child</option>
-              <option value="2">Senior</option>
-              <option value="3">Adult</option>
+            <label for="">Please Select Pizza Size:</label>
+            <select id="size" name="size">
+              <option value="18">Family size</option>
+              <option value="15">large</option>
+              <option value="12">Medium<option>
+              <option value="10">small</option>
             </select>
             <br>
-            <label for="showtime">Select Showtime:</label>
-            <select id="showtime" name="showtime">
-              <option value="1">Matinees</option>
-              <option value="2">General admission</option>
-              <option value="3">Late night showing</option>
+            <label for="meat">Please Select Meat toping:</label>
+            <select id="meat" name="meat">
+              <option value="2">Beef</option>
+              <option value="5">Mutton</option>
+              <option value="1">Chicken</option>
+              <!-- <option value="4">None</option> -->
             </select>
             <br>
-            <label for="movie">Select a Movie:</label>
-            <select id="movie" name="movie">
-              <option value="10">Harry Potter and the goblet of fire</option>
-              <option value="13">Howl's Moving Castle</option>
-              <option value="15">Paul Blart: Mall Cop</option>
+            <label for="veg">Please Select Veg topping:</label>
+            <select id="veg" name="veg">
+              <option value="5">Olives and Artechoke</option>
+              <option value="2">Mushrooms and Garden Salad</option>
             </select>
             <br>
             <button type="submit">Submit</button>  
@@ -41,7 +43,7 @@
       </div>
     <div class="col-md-6">
       <div class="jumbotron">
-        <h4>Ticket cost:</h4>
+        <h4>Pizza Cost:</h4>
 
         <p id="hidden"><span id="cost"></span></p>
       </div>

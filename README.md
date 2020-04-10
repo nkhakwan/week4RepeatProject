@@ -1,4 +1,4 @@
-# _Ben and Travis Pizza Parlor_
+# _PDX Pizza Parlor_
 
 #### _Epicodus Week 4 Project_
 
