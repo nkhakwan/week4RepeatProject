@@ -14,7 +14,7 @@ _This website takes pizza orders based on size and toppings and lets the custome
 * Navigate to index.html file.
 * Right click and open in the browser of your choice.
 
-* Alternatively, open the webpage at [click here](https://nkhakwan.github.io/week4Project)
+* Alternatively, open the webpage at [click here](https://nkhakwan.github.io/week4RepeatProject/)
 
 ## Known Bugs
 
