@@ -2,7 +2,7 @@
 
 #### _Epicodus Week 4 Project_
 
-#### By _**KhaanSahab**_
+#### By _**KhanSahab**_
 
 ## Description
 
